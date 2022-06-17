@@ -15,6 +15,7 @@
       {
         "useESModules": true,
         "regenerator": false
+        
       }
     ]
   ],
