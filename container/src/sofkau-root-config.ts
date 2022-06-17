@@ -12,13 +12,13 @@ import { registerApplication, start } from "single-spa";
 registerApplication({
   name: "@sofkau/mf-footer",
   app: () => System.import("@sofkau/mf-footer"),
-  activeWhen: ["/"]
+  activeWhen: ["/footer"]
 });
 
 registerApplication({
   name: "@sofkau/mf-header",
   app: () => System.import("@sofkau/mf-header"),
-  activeWhen: ["/"]
+  activeWhen: ["/header"]
 });
 
 start({
