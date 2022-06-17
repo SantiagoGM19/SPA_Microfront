@@ -1,3 +1,5 @@
+import RickAndMorty from "./RickAndMorty";
+
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return <RickAndMorty/>;
 }
